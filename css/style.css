@@ -1,0 +1,712 @@
+
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(icomoon.css);
+@import url(font-awesome.min.css);
+@import url(owl.carousel.min.css);
+@import url(swiper.min.css);
+@import url(slick.css);
+@import url(jquery.fancybox.min.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-span{
+	font-weight: bold;
+}
+
+@media (min-width: 1357px) {
+	.logo-j{
+	    width: 350px;
+	    height: auto;
+	    margin-top: 10px;
+	    margin-bottom: 0px;
+	}
+	.menu-j{
+		background-image: url("../img/menu.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 80px;
+
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.navegacion {
+        color: white !important;
+        font-family: muli;
+        font-size: 25px !important;
+    }
+
+    .margen-j{
+    	margin-left: 10px;
+    	margin-right: 10px;
+    }
+
+    .margen-indicator{
+    	/*position: absolute;top:460px;*/
+    	position: absolute;top:510px;
+    }
+    .titulo{
+		background-image: url("../img/menu.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 70px;
+		display: flex;
+	    align-items: center;
+	}
+	.img-cursos{
+		width: 450px;
+		height: auto;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.lista-cursos{
+		margin-top: -535px;
+	}
+
+	.span1{
+		position: relative;
+		left: 130px;
+	}
+
+	.span2{
+		position: relative;
+		left: -130px;	
+	}
+
+	.span3{
+		position: relative;
+		left: 30px;
+		top:100px;
+	}
+
+	.span4{
+		position: relative;
+		left: -30px;	
+		top:100px;
+	}
+
+	.span5{
+		position: relative;
+		left: 40px;
+		top:270px;
+	}
+
+	.span6{
+		position: relative;
+		left: -40px;	
+		top:270px;
+	}
+
+	.span7{
+		position: relative;
+		left: 120px;
+		top:390px;
+	}
+
+	.span8{
+		position: relative;
+		left: -120px;	
+		top:390px;
+	}	
+
+	.btn-image{
+		 width: 100px;
+		 height: auto;
+	}
+
+	.mision{
+		background-image: url("../img/mision.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 200px;
+	}
+
+	.vision{
+		background-image: url("../img/vision.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 200px;
+	}
+
+	.footer{
+		background-image: url("../img/footer.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 200px;
+	}
+
+	.altura-foo{
+		height: 200px;
+	}
+
+	.sp-aviso{
+		color:white;
+		text-decoration: underline white !important;
+	}
+
+	.sp-contacto{
+		color:white;
+	}
+
+	.sp-telf{
+		color:white;
+		text-decoration: underline white !important;
+	}
+
+	.sp-dere{
+		color:white;
+	}
+
+	.logo-footer{
+		width: 350px;
+		height: auto;
+	}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1356px) {
+	.logo-j{
+	    width: 350px;
+	    height: auto;
+	    margin-top: 10px;
+	    margin-bottom: 0px;
+	}
+	.menu-j{
+		background-image: url("../img/menu.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 80px;
+
+		display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.navegacion {
+        color: white !important;
+        font-family: muli;
+        font-size: 18px !important;
+    }
+
+    .margen-j{
+    	margin-left: 4px;
+    	margin-right: 4px;
+    }
+
+    .margen-indicator{
+    	position: absolute;top:335px;
+    }
+    .titulo{
+		background-image: url("../img/menu.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 60px;
+		display: flex;
+	    align-items: center;
+	}
+	.img-cursos{
+		width: 450px;
+		height: auto;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.lista-cursos{
+		margin-top: -535px;
+	}
+
+	.span1{
+		position: relative;
+		left: 110px;
+	}
+
+	.span2{
+		position: relative;
+		left: -110px;	
+	}
+
+	.span3{
+		position: relative;
+		left: -30px;
+		top:100px;
+	}
+
+	.span4{
+		position: relative;
+		left: 30px;	
+		top:100px;
+	}
+
+	.span5{
+		position: relative;
+		left: -40px;
+		top:270px;
+	}
+
+	.span6{
+		position: relative;
+		left: 40px;	
+		top:270px;
+	}
+
+	.span7{
+		position: relative;
+		left: 80px;
+		top:390px;
+	}
+
+	.span8{
+		position: relative;
+		left: -50px;	
+		top:390px;
+	}
+
+	.btn-image{
+		 width: 100px;
+		 height: auto;
+	}
+
+	.mision{
+		background-image: url("../img/mision.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 200px;
+	}
+
+	.vision{
+		background-image: url("../img/vision.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 200px;
+	}
+
+	.footer{
+		background-image: url("../img/footer.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 200px;
+	}
+
+	.altura-foo{
+		height: 200px;
+	}
+
+	.sp-aviso{
+		color:white;
+		text-decoration: underline white !important;
+	}
+
+	.sp-contacto{
+		color:white;
+	}
+
+	.sp-telf{
+		color:white;
+		text-decoration: underline white !important;
+	}
+
+	.sp-dere{
+		color:white;
+	}
+
+	.logo-footer{
+		width: 295px;
+		height: auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.logo-j{
+	    width: 350px;
+	    height: auto;
+	    margin-top: 10px;
+	    margin-bottom: 0px;
+	}
+	.menu-j{
+		background-color: #013a4c;
+		border-radius: 20px;
+	}
+	.navegacion {
+        color: white !important;
+        font-family: muli;
+        font-size: 18px !important;
+    }
+    .margen-j{
+    	margin-left: 0px;
+    	margin-right: 0px;
+    }
+
+    .margen-indicator{
+    	position: absolute;top:250px;
+    }
+    .titulo{
+		background-image: url("../img/menu.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 55px;
+		display: flex;
+	    align-items: center;
+	}
+	.img-cursos{
+		width: 450px;
+		height: auto;
+		margin-top: 60px;
+		margin-bottom: 60px;
+	}
+
+	.lista-cursos{
+		margin-top: -542px;
+	}
+
+	.span1{
+		position: relative;
+		left: 70px;
+	}
+
+	.span2{
+		position: relative;
+		left: -70px;	
+	}
+
+	.span3{
+		position: relative;
+		left: -80px;
+		top:100px;
+	}
+
+	.span4{
+		position: relative;
+		left: 80px;	
+		top:100px;
+	}
+
+	.span5{
+		position: relative;
+		left: -95px;
+		top:270px;
+	}
+
+	.span6{
+		position: relative;
+		left: 95px;	
+		top:270px;
+	}
+
+	.span7{
+		position: relative;
+		left: 70px;
+		top:420px;
+	}
+
+	.span8{
+		position: relative;
+		left: -40px;	
+		top:420px;
+	}
+
+	.text-span{
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+	.btn-image{
+		 width: 100px;
+		 height: auto;
+	}
+
+	.mision{
+		background-image: url("../img/mision.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 160px;
+	}
+
+	.vision{
+		background-image: url("../img/vision.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 160px;
+	}
+
+	.footer{
+		background-image: url("../img/footer.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 200px;
+	}
+
+	.altura-foo{
+		height: 200px;
+	}
+
+	.sp-aviso{
+		color:white;
+		text-decoration: underline white !important;
+	}
+
+	.sp-contacto{
+		color:white;
+	}
+
+	.sp-telf{
+		color:white;
+		text-decoration: underline white !important;
+	}
+
+	.sp-dere{
+		color:white;
+	}
+
+	.logo-footer{
+		width: 220px;
+		height: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	.logo-j{
+	    width: 220px;
+	    height: auto;
+	    margin-top: 10px;
+	    margin-bottom: 0px;
+	}
+	.menu-j{
+		background-color: #013a4c;
+		border-radius: 20px;
+	}
+	.navegacion {
+        color: white !important;
+        font-family: muli;
+        font-size: 14px !important;
+    }
+    .margen-j{
+    	margin-left: 0px;
+    	margin-right: 0px;
+    }
+    .margen-indicator{
+    	position: absolute;top:110px;
+    }
+    .titulo{
+		background-image: url("../img/menu.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 50px;
+		display: flex;
+	    align-items: center;
+	}
+	.img-cursos{
+		width: 120px;
+		height: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.lista-cursos{
+		margin-top: -165px;
+	}
+
+	.span1{
+		position: relative;
+		left: 30px;
+	}
+
+	.span2{
+		position: relative;
+		left: -30px;	
+	}
+
+	.span3{
+		position: relative;
+		left: -10px;
+		top:35px;
+	}
+
+	.span4{
+		position: relative;
+		left: 0px;	
+		top:35px;
+	}
+
+	.span5{
+		position: relative;
+		left: -5px;
+		top:65px;
+	}
+
+	.span6{
+		position: relative;
+		left: 6px;	
+		top:65px;
+	}
+
+	.span7{
+		position: relative;
+		left: 30px;
+		top:110px;
+	}
+
+	.span8{
+		position: relative;
+		left: -20px;	
+		top:110px;
+	}
+
+	.text-span{
+		font-weight: bold;
+		font-size: 7px;
+	}
+
+	.btn-image{
+		 width: 100px;
+		 height: auto;
+	}
+
+	.margen-campo{
+		margin-bottom: 10px;
+	}
+
+	.margen-ubi{
+		margin-top: 30px;
+	}
+
+	.mision{
+		background-image: url("../img/mision.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 110px;
+	}
+
+	.vision{
+		background-image: url("../img/vision.png");
+		background-repeat: no-repeat;
+  		background-size: 100% 100%;
+ 		background-color: transparent;
+		height: 110px;
+	}
+
+	.footer{
+		background-color: #013a4c;
+	}
+
+	.altura-foo{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.sp-aviso{
+		color:white;
+		text-decoration: underline white !important;
+	}
+
+	.sp-contacto{
+		color:white;
+	}
+
+	.sp-telf{
+		color:white;
+		text-decoration: underline white !important;
+	}
+
+	.sp-dere{
+		color:white;
+	}
+
+	.logo-footer{
+		width: 220px;
+		height: auto;
+	}
+.Currency {
+	background-color: #fff;
+	padding: 90px 0px;
+}
+.Currency .titlepage {
+	text-align: center;
+	padding-bottom: 65px;
+}
+.Currency .titlepage h2 {
+	font-weight: 500;
+	line-height: 72px;
+	font-size: 40px;
+	color: #080404;
+}
+.cur {
+	color: #ad2100;
+	font-weight: 500;
+}
+.Currency .three-box {
+	border-top: #ff0000 solid 2px;
+	text-align: center;
+}
+.Currency .three-box figure {
+	margin: 0px;
+}
+.Currency .three-box figure img {
+	width: 100%;
+}
+.Currency .three-box .Bitcoin {
+	position: relative;
+	margin-top: -60px !important;
+	text-align: center;
+	box-shadow: #ddd 0px 1px 1px 1px;
+	background-color: #fff;
+	padding: 0px 20px 26px 20px;
+	margin: 0 auto;
+	width: 310px;
+}
+.Currency .three-box .Bitcoin i img {
+	margin-top: -36px;
+}
+.Currency .three-box .Bitcoin p {
+	padding-top: 20px;
+	font-size: 15px;
+	line-height: 23px;
+	color: #3e3c3c;
+}
+.Currency .three-box .Bitcoin h3 {
+	font-size: 27px;
+	line-height: 32px;
+	font-weight: 500;
+	padding-top: 10px;
+}
+.Currency .three-box .read-more {
+	padding: 11px 20px;
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	margin-top: 26px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 20px;
+}
+.Currency .three-box .read-more:hover {
+	background-color: #ad2100;
+}
+}

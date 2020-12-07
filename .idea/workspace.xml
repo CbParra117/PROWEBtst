@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1823bdb1-2f84-4ee6-91cd-d1e2384bf95f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1iylWQLQCP2bkTgyVBendx4C1UA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ProWEB\Seciones\CategoryInfo\Secciones" />
+      <recent name="C:\xampp\php\www\ProWEB\Seciones\CategoryInfo\Secciones" />
+      <recent name="C:\xampp\php\www\ProWEB\Seciones\CategoryInfo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="InfoBD.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProWEB/InfoBD.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="InfoMarketDig.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProWEB/InfoMarketDig.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="InfoPROGRAMACION.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProWEB/InfoPROGRAMACION.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="ListadeCursos.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProWEB/ListadeCursos.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ProWEB/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.ListadeCursos.html" />
+        <item itemvalue="JavaScript Debug.InfoPROGRAMACION.html" />
+        <item itemvalue="JavaScript Debug.InfoMarketDig.html" />
+        <item itemvalue="JavaScript Debug.InfoBD.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1823bdb1-2f84-4ee6-91cd-d1e2384bf95f" name="Default Changelist" comment="" />
+      <created>1602887744831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602887744831</updated>
+      <workItem from="1602887746041" duration="11642000" />
+      <workItem from="1603154569010" duration="1326000" />
+      <workItem from="1603176828262" duration="14183000" />
+      <workItem from="1603308764039" duration="332000" />
+      <workItem from="1603315470972" duration="1479000" />
+      <workItem from="1603327306268" duration="14610000" />
+      <workItem from="1603346585712" duration="923000" />
+      <workItem from="1603686915090" duration="595000" />
+      <workItem from="1603727117371" duration="3735000" />
+      <workItem from="1603732598995" duration="837000" />
+      <workItem from="1603735060391" duration="26707000" />
+      <workItem from="1603813715892" duration="7802000" />
+      <workItem from="1603902815421" duration="1496000" />
+      <workItem from="1603906602956" duration="23793000" />
+      <workItem from="1603990532010" duration="2273000" />
+      <workItem from="1604052352046" duration="13756000" />
+      <workItem from="1604157253629" duration="4156000" />
+      <workItem from="1604380325104" duration="18408000" />
+      <workItem from="1604601585064" duration="2572000" />
+      <workItem from="1604685272674" duration="9674000" />
+      <workItem from="1604909789706" duration="882000" />
+      <workItem from="1604934524791" duration="4006000" />
+      <workItem from="1604939944676" duration="1755000" />
+      <workItem from="1604979370209" duration="946000" />
+      <workItem from="1605118867528" duration="1527000" />
+      <workItem from="1605163990017" duration="1231000" />
+      <workItem from="1605203837354" duration="8844000" />
+      <workItem from="1605233156888" duration="668000" />
+      <workItem from="1605299862793" duration="17400000" />
+      <workItem from="1605418800938" duration="18763000" />
+      <workItem from="1605511791516" duration="1503000" />
+      <workItem from="1605513596161" duration="784000" />
+      <workItem from="1605521491661" duration="939000" />
+      <workItem from="1605567918575" duration="1388000" />
+      <workItem from="1605570010803" duration="1009000" />
+      <workItem from="1605585386781" duration="749000" />
+      <workItem from="1605587861250" duration="1798000" />
+      <workItem from="1605590582944" duration="1765000" />
+      <workItem from="1605593047688" duration="1779000" />
+      <workItem from="1605594957473" duration="1771000" />
+      <workItem from="1605598682417" duration="1779000" />
+      <workItem from="1605600851245" duration="1214000" />
+      <workItem from="1605637102952" duration="422000" />
+      <workItem from="1605639407086" duration="988000" />
+      <workItem from="1605641503771" duration="1700000" />
+      <workItem from="1605656695950" duration="1727000" />
+      <workItem from="1605658609565" duration="1789000" />
+      <workItem from="1605758531827" duration="940000" />
+      <workItem from="1605794822957" duration="5207000" />
+      <workItem from="1605815052512" duration="14982000" />
+      <workItem from="1605899128510" duration="12913000" />
+      <workItem from="1605933420284" duration="968000" />
+      <workItem from="1605980723926" duration="4064000" />
+      <workItem from="1605998426564" duration="17611000" />
+      <workItem from="1606156574209" duration="1892000" />
+      <workItem from="1606189938230" duration="7494000" />
+      <workItem from="1606248564903" duration="2412000" />
+      <workItem from="1606634386303" duration="415000" />
+      <workItem from="1606635254608" duration="2589000" />
+      <workItem from="1607021919436" duration="17051000" />
+      <workItem from="1607111910458" duration="70000" />
+      <workItem from="1607114077461" duration="9150000" />
+      <workItem from="1607130778832" duration="12908000" />
+      <workItem from="1607159155484" duration="5130000" />
+      <workItem from="1607196144631" duration="10041000" />
+      <workItem from="1607240753111" duration="6475000" />
+      <workItem from="1607326993125" duration="10000" />
+      <workItem from="1607330979732" duration="10610000" />
+      <workItem from="1607380600983" duration="2423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="19" key="#CLI_Interpreters" timestamp="1605640183134">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="19" key="#CLI_Interpreters/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604421119234" />
+    <state x="263" y="19" key="#CLI_Interpreters/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605640183134" />
+    <state x="462" y="100" key="#HTTP_Proxy" timestamp="1605570193221">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="100" key="#HTTP_Proxy/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605570193221" />
+    <state x="309" y="42" key="#Inspections" timestamp="1607024960692">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604694656963" />
+    <state x="309" y="42" key="#Inspections/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607024960692" />
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1605495249398">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605495249398" />
+    <state x="275" y="22" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1604158556377" />
+    <state x="438" y="188" key="#Notifications" timestamp="1607161051693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="188" key="#Notifications/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607161051693" />
+    <state x="390" y="7" key="#PHP" timestamp="1604421134173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="7" key="#PHP/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604421134173" />
+    <state x="480" y="153" key="#Web_Browsers" timestamp="1607333646086">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="480" y="153" key="#Web_Browsers/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607333646086" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605508295339">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="-1533" y="-66" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-97.1920.1040@-1920.-97.1920.1040" timestamp="1604388796590" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604382228817" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605508295339" />
+    <state x="1779" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606205105846">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605829437209" />
+    <state x="1779" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606205105846" />
+    <state x="463" y="178" width="440" height="458" key="FileChooserDialogImpl" timestamp="1607035161139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="178" width="440" height="458" key="FileChooserDialogImpl/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604421103608" />
+    <state x="463" y="178" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607035161139" />
+    <state x="463" y="178" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603206316340" />
+    <state width="442" height="282" key="GridCell.Tab.0.bottom" timestamp="1604419337569">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-97.1920.1040@-1920.-97.1920.1040" timestamp="1604388805939" />
+    <state width="442" height="282" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604419337569" />
+    <state width="442" height="282" key="GridCell.Tab.0.center" timestamp="1604419337569">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-97.1920.1040@-1920.-97.1920.1040" timestamp="1604388805939" />
+    <state width="442" height="282" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604419337569" />
+    <state width="442" height="282" key="GridCell.Tab.0.left" timestamp="1604419337567">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-97.1920.1040@-1920.-97.1920.1040" timestamp="1604388805939" />
+    <state width="442" height="282" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604419337567" />
+    <state width="442" height="282" key="GridCell.Tab.0.right" timestamp="1604419337569">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-97.1920.1040@-1920.-97.1920.1040" timestamp="1604388805939" />
+    <state width="442" height="282" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604419337569" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1604392401865">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604392401865" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1605983948839">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1602918119144" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605983948839" />
+    <state x="1550" y="9" key="SettingsEditor" timestamp="1606003797436">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604421395303" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605659556543" />
+    <state x="1550" y="9" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606003797436" />
+    <state x="1770" y="105" width="540" height="524" key="StructurePopup" timestamp="1605919128959">
+      <screen x="1366" y="0" width="1366" height="728" />
+    </state>
+    <state x="1770" y="105" width="540" height="524" key="StructurePopup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605919128959" />
+    <state width="621" height="446" key="SwitcherDM" timestamp="1604053742000">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="621" height="446" key="SwitcherDM/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604053742000" />
+    <state x="582" y="241" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1604392919647">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="582" y="241" key="com.intellij.database.actions.DdlActions$CreateObject$1/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604392919647" />
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1605640143597">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1605640143597" />
+    <state x="165" y="71" width="1135" height="715" key="dock-window-1" timestamp="1607241239950">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="428" y="64" width="851" height="574" key="dock-window-1/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604910673372" />
+    <state x="165" y="71" width="1135" height="715" key="dock-window-1/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607241239950" />
+    <state x="1890" y="72" width="1054" height="715" key="dock-window-1/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1606021011064" />
+    <state x="-1627" y="-97" width="1152" height="715" maximized="true" key="dock-window-2" timestamp="1603346627759">
+      <screen x="-1920" y="-97" width="1920" height="1040" />
+    </state>
+    <state x="-1627" y="-97" width="1152" height="715" maximized="true" key="dock-window-2/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1603346627759" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1604421319425">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604421319425" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607117705572">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.-97.1920.1040@0.0.1366.728" timestamp="1604692451071" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1607117705572" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1604078118570" />
+  </component>
+</project>

@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display');
+:root {
+	--azul: #099fe5;
+	--fondo: #141414;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+	margin-bottom: 20px;
+}
+body {
+	background: var(--fondo);
+	font-family: 'Open Sans', sans-serif;
+	-webkit-text-size-adjust: none;
+	content-ms-overflow-style: scrollbar;}cc
+
+body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+	-moz-animation: none !important;
+	-webkit-animation: none !important;
+	-ms-animation: none !important;
+	animation: none !important;
+	-moz-transition: none !important;
+	-webkit-transition: none !important;
+	-ms-transition: none !important;
+	transition: none !important;
+}
+
+.contenedor {
+	width: 90%;
+	margin: auto;
+}
+
+
+.loader_bg {
+	position: fixed;
+	z-index: 9999999;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+}
+.loader {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loader img {
+	width: 280px;
+}
+header {
+	padding: 30px 0;
+	background: rgba(248, 247, 247, 0.9);
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+nav {
+	float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+	list-style: none;
+	overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+nav ul li a {
+	display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li:hover {
+	background: #3eada9;
+}
+.contenido {
+	padding-top: 280px;
+	padding-block-end: 50px;
+	align-content: center;
+}
+.contenido1 {
+	padding-block-end: 450px;
+
+}
+.contenido2 {
+	padding-top: 10px;
+	padding-block-end: 10px;
+	align-content: center;
+}
+.wrapper {
+	width: 100%;
+	margin: auto;
+	overflow:hidden;
+}
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--azul);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+
+
+.pelicula-principal .contenedor {
+	margin: 0 auto;
+	margin-bottom: 6.25em;
+	padding-left: 50px
+}
+
+.pelicula-principal .titulo {
+	font-weight: 600;
+	font-size: 3.12em;
+	margin-bottom: 0.4em;
+}
+
+.pelicula-principal .descripcion {
+	font-weight: normal;
+	font-size: 1em;
+	line-height: 1.75em;
+	max-width: 50%;
+	margin-bottom: 1.25em;
+}
+
+.pelicula-principal .boton {
+	background: rgba(0,0,0, 0.5);
+	border: none;
+	border-radius: 0.31em;
+	padding: 0.93em 1.87em;
+	color: #fff;
+	margin-right: 1.25em;
+	cursor: pointer;
+	transition: .3s ease all;
+	font-size: 1.12em;
+}
+
+.pelicula-principal .boton:hover {
+	background: #fff;
+	color: #000;
+}
+
+.pelicula-principal .boton i {
+	margin-right: 1.25em;
+}
+
+/* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
+.contenedor-titulo-controles {
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.contenedor-titulo-controles h3 {
+	color: #fff;
+	font-size: 30px;
+}
+
+.contenedor-titulo-controles .indicadores button {
+	background: #fff;
+	height: 3px;
+	width: 10px;
+	cursor: pointer;
+	border: none;
+	margin-right: 2px;
+}
+
+.contenedor-titulo-controles .indicadores button:hover,
+.contenedor-titulo-controles .indicadores button.activo {
+	background: #0048ff;
+}
+
+
+/* ---- ----- ----- Contenedor Principal y Flechas ----- ----- ----- */
+.peliculas-recomendadas {
+	margin-bottom: 70px;
+	padding-right: 50px
+}
+
+.peliculas-recomendadas .contenedor-principal {
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding-left: 50px
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+	position: absolute;
+	border: none;
+	background: rgba(0,0,0,0.3);
+	font-size: 40px;
+	height: 50%;
+	top: calc(50% - 25%);
+	line-height: 40px;
+	width: 50px;
+	color: #fff;
+	cursor: pointer;
+	z-index: 500;
+	transition: .2s ease all;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
+.peliculas-recomendadas .contenedor-principal .flecha-derecha:hover {
+	background: rgba(0,0,0, .9);
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-izquierda {
+	left: 0;
+}
+
+.peliculas-recomendadas .contenedor-principal .flecha-derecha {
+	right: 0;
+}
+
+/* ---- ----- ----- Carousel ----- ----- ----- */
+.peliculas-recomendadas .contenedor-carousel {
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+	padding-left: 50px;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
+	min-width: 20%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0,0,0, .3);
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.peliculas-recomendadas .contenedor-carousel .carousel .pelicula img {
+	width: 100%;
+	vertical-align: top;
+}
+.Currency {
+	background-color: #fff;
+	padding: 90px 0px;
+}
+.Currency .titlepage {
+	text-align: center;
+	padding-bottom: 65px;
+}
+.Currency .titlepage h2 {
+	font-weight: 500;
+	line-height: 72px;
+	font-size: 40px;
+	color: #080404;
+}
+.cur {
+	color: #0085ad;
+	font-weight: 500;
+}
+.Currency .three-box {
+	border-top: #005eff solid 2px;
+	text-align: center;
+}
+.Currency .three-box figure {
+	margin: 0px;
+}
+.Currency .three-box figure img {
+	width: 100%;
+}
+.Currency .three-box .Bitcoin {
+	position: relative;
+	margin-top: -60px !important;
+	text-align: center;
+	box-shadow: #ddd 0px 1px 1px 1px;
+	background-color: #fff;
+	padding: 0px 20px 26px 20px;
+	margin: 0 auto;
+	width: 310px;
+}
+.Currency .three-box .Bitcoin i img {
+	margin-top: -36px;
+}
+.Currency .three-box .Bitcoin p {
+	padding-top: 20px;
+	font-size: 15px;
+	line-height: 23px;
+	color: #3e3c3c;
+}
+.Currency .three-box .Bitcoin h3 {
+	font-size: 27px;
+	line-height: 32px;
+	font-weight: 500;
+	padding-top: 10px;
+}
+.Currency .three-box .read-more {
+	padding: 11px 20px;
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	margin-top: 26px;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 20px;
+}
+.Currency .three-box .read-more:hover {
+	background-color: #0070ad;
+
+}
+.abouts {
+	display: flow-root;
+	background: #fff;
+}
+.abouts .abouts-bg .abouts-us h3 {
+	font-size: 40px;
+	line-height: 72px;
+	font-weight: 500;
+	margin-bottom: 0px;
+	padding: 40px 0px;
+	text-transform: uppercase;
+}
+.abouts-us p {
+	line-height: 29px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #000;
+	padding-top: 0px;
+	padding: 30px 0px;
+}
+.abouts .abouts-bg .abouts-us figure {
+	margin: 0px;
+}
+.abouts .abouts-bg .abouts-us figure img {
+	width: 100%;
+}
+.abouts .abouts-bg {
+	margin: 0;
+	padding-left: 0;
+}
+/* Wrapper */
+
+.wrapper {
+	position: relative;
+}
+
+.wrapper > .inner {
+	padding: 5em 5em 3em 5em ;
+	max-width: 100%;
+	width: 75em;
+}
+
+@media screen and (max-width: 1680px) {
+
+	.wrapper > .inner {
+		padding: 4em 4em 2em 4em ;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
+
+	.wrapper > .inner {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 736px) {
+
+	.wrapper > .inner {
+		padding: 3em 2em 1em 2em ;
+	}
+
+}
+
+.wrapper.alt {
+	background-color: #261c3e;
+}
+
+.wrapper.style1 {
+	background-color: #FFFFFF;
+}
+
+.wrapper.style1-alt {
+	background-color: #FFFFFF;
+}
+
+.wrapper.style2 {
+	background-color: #FFFFFF;
+}
+
+.wrapper.style2-alt {
+	background-color: #FFFFFF;
+}
+
+.wrapper.style3 {
+	background-color: #FFFFFF;
+}
+
+.wrapper.style3-alt {
+	background-color: #FFFFFF;
+}
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+@media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.pelicula-principal {
+		font-size: 29px;
+	}
+
+	.pelicula-principal .descripcion {
+		max-width: 100%;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel {
+		overflow: visible;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel .carousel {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+	.peliculas-recomendadas .indicadores,
+	.peliculas-recomendadas .flecha-izquierda,
+	.peliculas-recomendadas .flecha-derecha {
+		display: none;
+	}
+	.p {
+		font-family: "Segoe UI";
+	}
+
+}
+
+button {
+	background-color: #47a386;
+	border: 0;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 25px;
+}
+
+.modal-container {
+	display: none;
+	background-color: rgba(0, 0, 0, 0.3);
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	pointer-events: none;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	transition: opacity 0.3s ease;
+}
+
+.show {
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.modal {
+	background-color: #ffffff;
+	width: 600px;
+	max-width: 100%;
+	padding: 30px 50px;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+.modal-lg {
+	max-width: 80% !important;
+}
+
+.modal h1 {
+	margin: 0;
+}
+
+.modal p {
+	opacity: 0.7;
+	font-size: 14px;
+}
