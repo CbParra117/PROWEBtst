@@ -72,124 +72,29 @@
         </div>
     </div>
 </div>
-<section class="contenido">
-<div class="container">
+<boody>
     <div class="row">
-        <div class="col"></div>
-        <div class="col-7"></div> <div id="CalendarioWeb"></div>
-        <div class="col"></div>
-
-    </div>
-</div>
-<script>
-    $(document).ready(function(){
-        $('#CalendarioWeb').fullCalendar({
-
-            header:{
-                left:'today, prev,next,',
-                center:'title',
-                right:'month,basicWeek,basicDay ,agendaWeek, agendaDay'
-            },
-            dayClick:function(date,jsEvent,view){
-                $('#txtFecha').val(date.format());
-                $(" #ModalEventos ").modal();
-            },
-            events: 'http://localhost:80/ProWEB/eventos.php',
-
-            eventClick:function (calEvent,jsEvent,view) {
-                //h2
-                $('#tituloEvento').html(calEvent,title);
-                //muestra la informacion del  evento en los inputs
-                $('#txtDescripcion').val(calEvent,descripcion);
-                $('#txtID').val(calEvent,id);
-                $('#txtTitulo').val(calEvent,title);
-                $('#txtColor').val(calEvent,color);
-
-                FechaHora= calEvent.start._i.split(" ");
-                $('#txtFecha').val(FechaHora[0]);
-                $('#txtHora').val(FechaHora[1]);
-
-
-                $("#exampleEventos").modal();
-
-            }
-        });
-
-    });
-</script>
-</section>
-<!-- Modal 1(agregar  modificar  elminar) -->
-<div class="modal fade" id="ModalEventos" tabindex="-1" role="dialog"
-     aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <div class="col-12 col-md-12 col-lg-12 titulo">
-                  <h5 class="modal-title h4" id="tituloEvento"></h5>
-                </div>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                Id:<input type="text" id="txtID" name="txtID">
-                Fecha:<input type="date" id="txtFecha" name="txtFecha"/><br/>
-                Titulo:<input type="text" id="txtTitulo" /><br/>
-                Hora:<input type="time" id="txtHora" value="10:30" /><br/>
-                Descripcion <textarea id="txtDescripcion" rows="3"></textarea><br/>
-                color:<input type="color" value="#ff0000" id="txtColor"><br/>
-            </div>
-            <div class="modal-footer">
-
-                <button type="button" id="btnAgregar" class="btn btn-success" >Agregar</button>
-                <button type="button" class="btn btn-success" >Modificar</button>
-                <button type="button" class="btn btn-danger ">Borrar</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-            </div>
+        <div class="col-md-12">
+            <div class="titlepage">
+                <h2 align="center" >ESTA ES LA SELECCION DE CATEGORIAS SOLO PARA NUESTROS <strong class="cur">LÍDERES DEL MAÑANA</strong></h2>
+                <span  align="center" ><img  src="images/boder.png" alt="img"/> </span> </div>
         </div>
     </div>
-</div>
-<script>
-      var NuevoEvento;
-        $('#btnAgregar').click(function() {
-            RecolectarDatosGUI();
-            Enviarinformacion('agregar'.NuevoEvento);
-    });
-     function RecolectarDatosGUI(){
-          NuevoEvento= {
-             id:$('#txtID').val(),
-             title:$('#txtTitulo').val(),
-             start:$('#txtFecha').val()+" "+$('#txtHora').val(),
-             color:$('#txtColor').val(),
-             descripcion:$('#txtDescripcion').val(),
-             textColor: "#ffffff",
-             end:$('#txtFecha').val()+" "+$('#txtHora').val()
-         };
-     }
-     function Enviarinformacion(accion,objEvento){
+    <div>
+        <div class="row align-content-center" align="center">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="three-box">
 
-         $.ajax(
-             {
-                type:'POST',
-                url: 'eventos.php>?accion='+accion,
-                data:objEvento,
-                 success:function (msg)
-                 {
-                    if(msq) {
-                        $('#CalendarioWeb').fullCalendar('refetchEvents');
-                        $(" #ModalEventos ").modal('toggle');
-                        error.function()
-                        {
-                            alert("hay un error");
+                    <div class="Bitcoin"> <i><a href="Seciones/CategoryInfo/InfDesPEr.html"><img  src="images/dollar.png" alt="img"/></a></i>
 
-
-                        }
-
-                }
-             }
-         });
-      }
-</script>
+                        <h1 class="titlepage"> Felicitaciones Lider del futuro , estas ahora con nosotros!. </h1>
+                    </div>
+                        <H5 class="text-body">Tu email se a confirmado y los datos se an validado, ahora puedes iniciar
+                            el curso designado, Exito, te espermaos en la cima!.</H5>
+                    </div>
+                </div>
+        </div>
+    </div>
 </body>
 <footer>
 

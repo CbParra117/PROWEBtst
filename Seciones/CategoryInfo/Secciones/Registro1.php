@@ -109,7 +109,7 @@ if(isset($_POST['submit'])) {
                                                         <span class="" style="font-weight: bold;position: relative;top:3px;">NOMBRE:</span>
                                                     </div>
                                                     <div class="col-md-10 col-lg-11 col-12">
-                                                        <input  placeholder="Nombre" type="text" name="name" class="form-control" style="width: 100%;height: 33px;" value="" required="">
+                                                        <input  placeholder="name" type="text" name="name" class="form-control" style="width: 100%;height: 33px;" value="" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -143,8 +143,28 @@ if(isset($_POST['submit'])) {
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="col-md-12" style="margin-top: 10px;">
+                                                <div class="terms">
+                                                    <div class="col-md-6 col-lg-3 col-12 margen-campo">
+                                                    <input  type="checkbox"name="terms" onclick="enableSending()" class="form-control"style="width: 100%;height: 33px;" value="" required="" >
+                                                     <label for="terms"><a href="TerminosYCondiciones.html" target="_blank">
+                                                        Acepto Terminos y Condiciones</a></label>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12" style="margin-top: 10px;">
+                                                <div class="row">
+                                                    <div class="col-md-6 col-lg-3 col-12 margen-campo">
+                                                        <span class="" style="font-weight: bold;position: relative;top:3px;">Contraseña:</span>
+                                                    </div>
+                                                    <div class="col-md-6 col-lg-9 col-12">
+                                                        <input type="password" name="Password" placeholder="Contraseña." class="form-control" style="width: 100%;height: 33px;" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="col-md-12 centrar" style="margin-top: 20px;">
-                                                <input class="three-box" type="submit" name="enviar" >
+                                                <input  class="btn-outline-primary"  type="submit" name="enviar" >
                                             </div>
                                         </div>
                                     </form>
@@ -195,7 +215,7 @@ if(isset($_POST['submit'])) {
                                 <img src="../../../img/ubicacion.png" style="width: 25px;height: auto;">&nbsp;<span class="text-span">Calle Priv. TRIANA MZ41 LT10 N20 Conjnto urbano Real verona C.P. 55767 TECAMAC EDO. DE MEX.</span>
                                         </div>
                                         <div class="col-md-12 centrar" style="margin-top: 10px;">
-                                            <a href="https://www.google.com/maps/search/priv+triana+mz41+lt+10+n20+c.+treviso+conjunto+urbano+real+verona+c.p+55767+tecama+mex/@19.6519622,-99.0293331,19.25z" onclick="alert('Maps');"><img src="../../../img/maps.png" style="width: 200px;height: auto;cursor: pointer;"></a>
+                                            <a href="https://www.google.com/maps/search/priv+triana+mz41+lt+10+n20+c.+treviso+conjunto+urbano+real+verona+c.p+55767+tecama+mex/@19.6519622,-99.0293331,19.25z" target="_blank" onclick="alert('Maps');"><img src="../../../img/maps.png" style="width: 200px;height: auto;cursor: pointer;"></a>
                                         </div>
 
                                     </div>
