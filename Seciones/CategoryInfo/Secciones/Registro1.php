@@ -1,11 +1,3 @@
-<?php
-if(isset($_POST['submit'])) {
-    $nombre = $_POST['nombre'];
-    $correo = $_POST['correo'];
-    $numero = $_POST['numero'];
-    $materia = $_POST['materia'];
-}
-?>
 <!DOCTYPE >
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
@@ -100,7 +92,7 @@ if(isset($_POST['submit'])) {
                                     </div>
                                 <div class="col-12 col-md-12 col-lg-12" style="margin-bottom: 0px;padding-left:30px;padding-right: 30px">
 
-                                    <form method="post">
+                                    <form action="Registro.php" method="post" enctype="application/x-www-form-urlencoded">
                                         <div class="row">
 
                                             <div class="col-md-12" style="margin-top: 10px;">
@@ -109,7 +101,7 @@ if(isset($_POST['submit'])) {
                                                         <span class="" style="font-weight: bold;position: relative;top:3px;">NOMBRE:</span>
                                                     </div>
                                                     <div class="col-md-10 col-lg-11 col-12">
-                                                        <input  placeholder="name" type="text" name="name" class="form-control" style="width: 100%;height: 33px;" value="" required="">
+                                                        <input  placeholder="Nombre" type="text" name="nombre" class="form-control" style="width: 100%;height: 33px;" value="" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -119,7 +111,7 @@ if(isset($_POST['submit'])) {
                                                         <span class="" style="font-weight: bold;position: relative;top:3px;">CORREO ELECTRÓNICO:</span>
                                                     </div>
                                                     <div class="col-md-9 col-lg-10 col-12">
-                                                        <input type="email" name="email" placeholder="Correo Electronico." class="form-control" style="width: 100%;height: 33px;" value="" required="">
+                                                        <input type="email" name="correo" placeholder="Correo Electronico." class="form-control" style="width: 100%;height: 33px;" value="" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -129,7 +121,7 @@ if(isset($_POST['submit'])) {
                                                         <span class="" style="font-weight: bold;position: relative;top:3px;" >NÚMERO DE CONTACTO:</span>
                                                     </div>
                                                     <div class="col-md-9 col-lg-10 col-12">
-                                                        <input type="text" name="num" placeholder="Numero de contacto." class="form-control" style="width: 100%;height: 33px;" required="">
+                                                        <input type="text" name="numero" placeholder="Numero de contacto." class="form-control" style="width: 100%;height: 33px;" required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -153,24 +145,13 @@ if(isset($_POST['submit'])) {
 
                                                 </div>
                                             </div>
-                                            <div class="col-md-12" style="margin-top: 10px;">
-                                                <div class="row">
-                                                    <div class="col-md-6 col-lg-3 col-12 margen-campo">
-                                                        <span class="" style="font-weight: bold;position: relative;top:3px;">Contraseña:</span>
-                                                    </div>
-                                                    <div class="col-md-6 col-lg-9 col-12">
-                                                        <input type="password" name="Password" placeholder="Contraseña." class="form-control" style="width: 100%;height: 33px;" required="">
-                                                    </div>
-                                                </div>
-                                            </div>
+
                                             <div class="col-md-12 centrar" style="margin-top: 20px;">
-                                                <input  class="btn-outline-primary"  type="submit" name="enviar" >
+                                                <input  class="btn-outline-primary"  type="submit" name="enviar" value="enviar"  >
                                             </div>
                                         </div>
                                     </form>
-                                    <?php
-                                    include ("Registro.php");
-                                    ?>
+
                                 </div>
                             </div>
                         </div>
